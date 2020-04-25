@@ -1,0 +1,24 @@
+{
+  "name": "AWS Route53 DDNS",
+  "version": "0.1.0",
+  "slug": "aws-ddns",
+  "description": "Dynamic DNS for AWS Route53",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "once",
+  "boot": "manual",
+  "options": {
+    "awskey": "",
+    "awssecret": "",
+    "zone_id": "",
+    "record_set": "",
+    "record_type": ""
+  },
+  "schema": {
+    "awskey": "str",
+    "awssecret": "str",
+    "zone_id": "str",
+    "record_set": "str",
+    "record_type": "str"
+  },
+  "map": ["config:rw"]
+}
