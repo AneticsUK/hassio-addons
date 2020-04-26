@@ -1,4 +1,4 @@
-# hassio-addons
+# Anetics UK Home Assistant Addons
 Just a few things i've been working on
 
 Most of the addon's here have been created out of my own personal need, while i do not officially offer support i'm happy to help with basic issues
