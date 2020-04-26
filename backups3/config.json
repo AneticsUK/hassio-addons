@@ -1,0 +1,22 @@
+{
+  "name": "Backup S3",
+  "version": "1.3.1",
+  "slug": "backup_s3",
+  "description": "Sync your snapshots to an S3 bucket",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "once",
+  "boot": "manual",
+  "options": {
+    "awskey": "",
+    "awssecret": "",
+    "bucketname": "",
+    "path": ""
+  },
+  "schema": {
+    "awskey": "str",
+    "awssecret": "str",
+    "bucketname": "str",
+    "path": "str"
+  },
+  "map": ["backup:rw","config:rw"]
+}
