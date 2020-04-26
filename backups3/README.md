@@ -54,4 +54,3 @@ Ideally you would automate this using automation:
 
 The automation above first makes a snapshot at 3am, and then at 3.30am uploads to S3.
 
-Contact: rrostt@gmail.com
