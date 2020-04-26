@@ -1,8 +1,8 @@
 {
-  "name": "Backup S3",
+  "name": "Snapshot Backup to AWS S3",
   "version": "1.3.1",
-  "slug": "backup_s3",
-  "description": "Sync your snapshots to an S3 bucket",
+  "slug": "aws_backup",
+  "description": "Backup Snapshots to AWS S3",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "once",
   "boot": "manual",
